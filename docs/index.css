@@ -1,0 +1,217 @@
+@font-face {
+  font-family: kickerregular;
+  src: url('./assets/fonts/kickerregular/kickerregular.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/kickerregular/kickerregular.woff2') format('woff2'), url('./assets/fonts/kickerregular/kickerregular.woff') format('woff'), url('./assets/fonts/kickerregular/kickerregular.ttf') format('truetype'), url('./assets/fonts/kickerregular/kickerregular.svg#kickerregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: kickerregular_italic;
+  src: url('./assets/fonts/kickerregular_italic/kickerregular_italic.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/kickerregular_italic/kickerregular_italic.woff2') format('woff2'), url('./assets/fonts/kickerregular_italic/kickerregular_italic.woff') format('woff'), url('./assets/fonts/kickerregular_italic/kickerregular_italic.ttf') format('truetype'), url('./assets/fonts/kickerregular_italic/kickerregular_italic.svg#kickerregular_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: kickerregular_slanted;
+  src: url('./assets/fonts/kickerregular_slanted/kickerregular_slanted.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/kickerregular_slanted/kickerregular_slanted.woff2') format('woff2'), url('./assets/fonts/kickerregular_slanted/kickerregular_slanted.woff') format('woff'), url('./assets/fonts/kickerregular_slanted/kickerregular_slanted.ttf') format('truetype'), url('./assets/fonts/kickerregular_slanted/kickerregular_slanted.svg#kickerregular_slanted') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: kickerregular_upright;
+  src: url('./assets/fonts/kickerregular_upright/kickerregular_upright.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/kickerregular_upright/kickerregular_upright.woff2') format('woff2'), url('./assets/fonts/kickerregular_upright/kickerregular_upright.woff') format('woff'), url('./assets/fonts/kickerregular_upright/kickerregular_upright.ttf') format('truetype'), url('./assets/fonts/kickerregular_upright/kickerregular_upright.svg#kickerregular_upright') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: halanaregular;
+  src: url('./assets/fonts/halanaregular/halanaregular.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/halanaregular/halanaregular.woff2') format('woff2'), url('./assets/fonts/halanaregular/halanaregular.woff') format('woff'), url('./assets/fonts/halanaregular/halanaregular.ttf') format('truetype'), url('./assets/fonts/halanaregular/halanaregular.svg#halanaregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@media (max-width: 3840px) and (orientation: landscape) and (min-width: 769px) {
+   html {
+    overflow-y: initial !important;
+  }
+   html,  .view_gallery {
+    scrollbar-width: none;
+  }
+   html::-webkit-scrollbar,  .view_gallery::-webkit-scrollbar {
+    display: none;
+  }
+   .view_canvas,  .view_nav,  .view_nav a,  .view_sunset,  .view_sunset .sun,  .view_sunset .sun .sky,  .view_sunset .sun .acacia,  .view_about,  .view_compname,  .view_compname .comp_name,  .view_compname .comp_motto,  .view_food,  .view_food .food_text,  .view_food .food_text .header,  .view_food .food_text .text,  .view_food .food_text .text div,  .view_food .food_image,  .view_facilities,  .view_facilities .facilities_text,  .view_facilities .facilities_text .header,  .view_facilities .facilities_text .text,  .view_facilities .facilities_text .text div,  .view_facilities .facilities_image,  .view_services,  .view_services .services_text,  .view_services .services_text .header,  .view_services .services_text .text,  .view_services .services_text .text div,  .view_services .services_image,  .view_moon,  .view_moon .moon,  .view_moon .moon .acacia,  .view_contacts,  .view_contacts .logo,  .view_contacts .text,  .view_gallery {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   .view_canvas,  .view_nav,  .view_sunset,  .view_sunset .sun .acacia,  .view_about,  .view_compname,  .view_food,  .view_facilities,  .view_services,  .view_moon,  .view_moon .moon .acacia,  .view_contacts,  .view_gallery {
+    position: absolute;
+  }
+   .view_canvas,  .view_sunset {
+    top: 0;
+  }
+   .view_canvas,  .view_sunset,  .view_moon {
+    left: 0;
+    width: 1366px;
+  }
+   .view_canvas {
+    height: 4608px;
+    background-color: #000;
+  }
+   .view_nav {
+    top: 20px;
+    left: 412.968px;
+    width: 924.106px;
+    height: 40px;
+    padding-top: 4px;
+    border-radius: 5px;
+    background-color: rgb(0,0,0,0.5);
+  }
+   .view_nav a,  .view_sunset .sun,  .view_sunset .sun .sky,  .view_compname .comp_name,  .view_compname .comp_motto,  .view_food .food_text,  .view_food .food_text .header,  .view_food .food_text .text,  .view_food .food_text .text div,  .view_food .food_image,  .view_facilities .facilities_text,  .view_facilities .facilities_text .header,  .view_facilities .facilities_text .text,  .view_facilities .facilities_text .text div,  .view_facilities .facilities_image,  .view_services .services_text,  .view_services .services_text .header,  .view_services .services_text .text,  .view_services .services_text .text div,  .view_services .services_image,  .view_moon .moon,  .view_contacts .logo,  .view_contacts .text {
+    position: relative;
+  }
+   .view_nav a,  .view_about,  .view_compname .comp_motto,  .view_food .food_text .header,  .view_food .food_text .text,  .view_facilities .facilities_text .header,  .view_facilities .facilities_text .text,  .view_services .services_text .header,  .view_services .services_text .text,  .view_contacts .text {
+    font-family: kickerregular;
+  }
+   .view_nav a,  .view_compname .comp_motto {
+    font-size: 32px;
+  }
+   .view_nav a,  .view_compname .comp_name,  .view_food .food_text .header,  .view_facilities .facilities_text .header,  .view_services .services_text .header {
+    color: #e22c00;
+  }
+   .view_nav a,  .view_food .food_text,  .view_food .food_image,  .view_facilities .facilities_text,  .view_facilities .facilities_image,  .view_services .services_text,  .view_services .services_image {
+    display: inline-block;
+  }
+   .view_nav a {
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+    margin-left: 25px;
+  }
+   .view_nav a.active,  .view_about,  .view_compname .comp_motto,  .view_food .food_text .text,  .view_facilities .facilities_text .text,  .view_services .services_text .text,  .view_contacts .text {
+    color: #ffffff;
+  }
+   .view_sunset {
+    height: 536.111px;
+  }
+   .view_sunset .sun,  .view_sunset .sun .sky,  .view_moon .moon {
+    width: 100%;
+    height: 100%;
+  }
+   .view_sunset .sun {
+    background-image: radial-gradient(800px circle at 145px 443px, #fffee2, #fffd8d 60px, #fffc38 97px, #ff4800 97px, #ff4800 120px, rgb(255, 207, 0, 0));
+  }
+   .view_sunset .sun .sky {
+    opacity: 0.326;
+    background-image: linear-gradient(to top, #e22c00, #711600 20%, #380b00 45%, #000000 55%);
+  }
+   .view_sunset .sun .acacia,  .view_moon .moon .acacia {
+    left: 108.645px;
+    top: 420.053px;
+    width: 281.387px;
+    height: 116.486px;
+  }
+   .view_about {
+    left: 33.542px;
+    top: 567.585px;
+    width: 1298.917px;
+  }
+   .view_about,  .view_food .food_text .text,  .view_facilities .facilities_text .text,  .view_services .services_text .text,  .view_contacts .text {
+    font-size: 28px;
+  }
+   .view_compname {
+    left: 500px;
+    top: 160px;
+    text-align: center;
+  }
+   .view_compname .comp_name {
+    font-size: 72px;
+    font-family: halanaregular;
+  }
+   .view_compname .comp_name,  .view_compname .comp_motto {
+    text-shadow: 2px -2px #000;
+  }
+   .view_compname .comp_motto,  .view_contacts .text {
+    margin-top: 10px;
+  }
+   .view_food {
+    left: 89.267px;
+    top: 873.221px;
+    width: 1187.465px;
+  }
+   .view_food,  .view_facilities,  .view_services {
+    height: 557.558px;
+  }
+   .view_food .food_text,  .view_facilities .facilities_text,  .view_services .services_text {
+    width: 715.257px;
+  }
+   .view_food .food_text,  .view_services .services_text {
+    margin-right: 40px;
+  }
+   .view_food .food_text .header,  .view_facilities .facilities_text .header,  .view_services .services_text .header {
+    font-size: 40px;
+  }
+   .view_food .food_text .text,  .view_food .food_text .text div,  .view_facilities .facilities_text .text,  .view_facilities .facilities_text .text div,  .view_services .services_text .text,  .view_services .services_text .text div {
+    margin-top: 20px;
+  }
+   .view_food .food_image {
+    width: 394.293px;
+    height: 298.232px;
+  }
+   .view_food .food_image,  .view_facilities .facilities_image,  .view_services .services_image {
+    filter: invert(100%) sepia(20%) saturate(0%) hue-rotate(13deg) brightness(104%) contrast(101%);
+  }
+   .view_facilities {
+    left: 62.319px;
+    top: 1641.221px;
+    width: 1241.362px;
+  }
+   .view_facilities .facilities_text {
+    margin-left: 40px;
+  }
+   .view_facilities .facilities_text .header,  .view_facilities .facilities_text .text {
+    text-align: right;
+  }
+   .view_facilities .facilities_image {
+    width: 450.323px;
+    height: 312.733px;
+  }
+   .view_services {
+    left: 44.179px;
+    top: 2409.221px;
+    width: 1277.643px;
+  }
+   .view_services .services_image {
+    width: 515.606px;
+    height: 472.937px;
+  }
+   .view_moon {
+    top: 3955.628px;
+    height: 536.743px;
+  }
+   .view_moon .moon {
+    background-image: radial-gradient(600px circle at 120px 291px,#e2e2e2,  #ffffff 45px, #8d8d8d 50px, #717171 65px, rgb(255, 207, 0, 0));
+  }
+   .view_contacts {
+    left: 850px;
+    top: 3979.884px;
+  }
+   .view_contacts .logo {
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    filter: invert(21%) sepia(40%) saturate(5664%) hue-rotate(2deg) brightness(103%) contrast(102%);
+  }
+   .view_gallery {
+    left: 34.184px;
+    top: 3159.680px;
+    width: 1297.632px;
+    height: 648.641px;
+    overflow-y: scroll;
+  }
+}
+@media (max-width: 3840px) and (orientation: portrait) and (min-width: 769px) {
+}
+@media (max-width: 768px) and (orientation: landscape) {
+}
+@media (max-width: 768px) and (orientation: portrait) {
+}

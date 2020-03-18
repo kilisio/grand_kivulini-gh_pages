@@ -1,0 +1,184 @@
+{
+  "path": "data",
+  "name": "data",
+  "children": [
+    {
+      "path": "data/audio",
+      "name": "audio",
+      "children": [],
+      "size": 0,
+      "type": "directory"
+    },
+    {
+      "path": "data/documents",
+      "name": "documents",
+      "children": [],
+      "size": 0,
+      "type": "directory"
+    },
+    {
+      "path": "data/fonts",
+      "name": "fonts",
+      "children": [],
+      "size": 0,
+      "type": "directory"
+    },
+    {
+      "path": "data/icons",
+      "name": "icons",
+      "children": [],
+      "size": 0,
+      "type": "directory"
+    },
+    {
+      "path": "data/images",
+      "name": "images",
+      "children": [
+        {
+          "path": "data/images/1.jpg",
+          "name": "1.jpg",
+          "size": 132015,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "data/images/10.jpg",
+          "name": "10.jpg",
+          "size": 92375,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "data/images/11.jpg",
+          "name": "11.jpg",
+          "size": 44302,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "data/images/12.jpg",
+          "name": "12.jpg",
+          "size": 151688,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "data/images/13.jpg",
+          "name": "13.jpg",
+          "size": 97366,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "data/images/14.jpg",
+          "name": "14.jpg",
+          "size": 145313,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "data/images/15.jpg",
+          "name": "15.jpg",
+          "size": 68428,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "data/images/16.jpg",
+          "name": "16.jpg",
+          "size": 116359,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "data/images/17.jpg",
+          "name": "17.jpg",
+          "size": 52124,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "data/images/18.jpg",
+          "name": "18.jpg",
+          "size": 124296,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "data/images/2.jpg",
+          "name": "2.jpg",
+          "size": 102386,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "data/images/3.jpg",
+          "name": "3.jpg",
+          "size": 146320,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "data/images/4.jpg",
+          "name": "4.jpg",
+          "size": 91136,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "data/images/5.jpg",
+          "name": "5.jpg",
+          "size": 125349,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "data/images/6.jpg",
+          "name": "6.jpg",
+          "size": 42604,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "data/images/7.jpg",
+          "name": "7.jpg",
+          "size": 33938,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "data/images/8.jpg",
+          "name": "8.jpg",
+          "size": 104560,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "data/images/9.jpg",
+          "name": "9.jpg",
+          "size": 89830,
+          "extension": ".jpg",
+          "type": "file"
+        }
+      ],
+      "size": 1760389,
+      "type": "directory"
+    },
+    {
+      "path": "data/scripts",
+      "name": "scripts",
+      "children": [],
+      "size": 0,
+      "type": "directory"
+    },
+    {
+      "path": "data/videos",
+      "name": "videos",
+      "children": [],
+      "size": 0,
+      "type": "directory"
+    }
+  ],
+  "size": 1760389,
+  "type": "directory"
+}

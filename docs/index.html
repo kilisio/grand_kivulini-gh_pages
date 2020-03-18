@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html style="width:100%;height:100%;">
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: 'unsafe-eval' 'unsafe-inline' blob:">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+    <link rel="shortcut icon" type="image/png" href="./favicon.png" />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <link rel="stylesheet" href="./scripts/grid_gallery/grid-gallery.css" type="text/css" />
+</head>
+
+<body style="margin:0;padding:0;">
+    <style>
+        @element html and (orientation: landscape) and (max-width: 3840px) and (min-width: 769px) {
+            html {
+                overflow: hidden;
+            }
+        }
+        @element html and (orientation: landscape) and (max-width: 3840px) and (min-width: 769px) {
+            .grand_kivulini.web_view {
+                transform: scaleX(eval('window.innerWidth / 1366')) scaleY(eval("window.innerHeight / 768;                    "));
+                transform-origin: left top;
+            }
+        }
+        @element html and (orientation: portrait) and (max-width: 3840px) and (min-width: 769px) {
+            html {
+                overflow: hidden;
+            }
+        }
+        @element html and (orientation: portrait) and (max-width: 3840px) and (min-width: 769px) {
+            .grand_kivulini.web_view {
+                transform: scaleX(eval('window.innerWidth / 768')) scaleY(eval("window.innerHeight / 1366;                    "));
+                transform-origin: left top;
+            }
+        }
+        @element html and (orientation: landscape) and (max-width: 768px) {
+            html {
+                overflow-x: hidden;
+                overflow-y: auto;
+                scrollbar-width: none;
+            }
+            html: : -webkit-scrollbar {
+                display: none;
+            }
+        }
+        @element html and (orientation: landscape) and (max-width: 768px) {
+            .grand_kivulini.web_view {
+                transform: scaleX(eval('window.innerWidth / 768')) scaleY(eval("                        let ratio = 768 / 432, height = window.innerHeight;                        let win_ratio = window.innerWidth / window.innerHeight;                        if(win_ratio > (ratio * 3)){                            height = window.innerWidth / ratio;                        }                        height / 432;                    "));
+                transform-origin: left top;
+            }
+        }
+        @element html and (orientation: portrait) and (max-width: 768px) {
+            html {
+                overflow: hidden;
+            }
+        }
+        @element html and (orientation: portrait) and (max-width: 768px) {
+            .grand_kivulini.web_view {
+                transform: scaleX(eval('window.innerWidth / 432')) scaleY(eval("window.innerHeight / 768;                    "));
+                transform-origin: left top;
+            }
+        }
+    </style>
+    <div class="grand_kivulini web_view" id="web_view"></div>
+    <script type="application/javascript">
+        function web_view() {}
+        web_view();
+    </script>
+    <script src="./scripts/eqcss/eqcss.js"></script>
+    <script src="./scripts/ractive/ractive.js"></script>
+    <script src="./scripts/axios/axios.js"></script>
+    <script src="./scripts/grid_gallery/grid-gallery.js"></script>
+    <script src="./lib_client.js"></script>
+    <script src="./cordova.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
