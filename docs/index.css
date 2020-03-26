@@ -121,6 +121,7 @@
    .view_compname {
     left: 500px;
     top: 160px;
+    width: 700px;
     text-align: center;
   }
    .view_compname .comp_name {
@@ -210,8 +211,594 @@
   }
 }
 @media (max-width: 3840px) and (orientation: portrait) and (min-width: 769px) {
+   html {
+    overflow-y: initial !important;
+  }
+   html,  .view_gallery {
+    scrollbar-width: none;
+  }
+   html::-webkit-scrollbar,  .view_gallery::-webkit-scrollbar {
+    display: none;
+  }
+   .view_canvas,  .view_nav,  .view_nav a,  .view_sunset,  .view_sunset .sun,  .view_sunset .sun .sky,  .view_sunset .sun .acacia,  .view_about,  .view_compname,  .view_compname .comp_name,  .view_compname .comp_motto,  .view_food,  .view_food .food_text,  .view_food .food_text .header,  .view_food .food_text .text,  .view_food .food_text .text div,  .view_food .food_image,  .view_facilities,  .view_facilities .facilities_text,  .view_facilities .facilities_text .header,  .view_facilities .facilities_text .text,  .view_facilities .facilities_text .text div,  .view_facilities .facilities_image,  .view_services,  .view_services .services_text,  .view_services .services_text .header,  .view_services .services_text .text,  .view_services .services_text .text div,  .view_services .services_image,  .view_moon,  .view_moon .moon,  .view_moon .moon .acacia,  .view_contacts,  .view_contacts .logo,  .view_contacts .text,  .view_contacts .contact_hours,  .view_contacts .contact_hours .logo,  .view_contacts .contact_hours .text,  .view_gallery {
+    margin: 0;
+    padding: 0;
+  }
+   .view_canvas,  .view_nav,  .view_sunset,  .view_sunset .sun .acacia,  .view_about,  .view_compname,  .view_food,  .view_food .food_text,  .view_food .food_image,  .view_facilities,  .view_facilities .facilities_text,  .view_facilities .facilities_image,  .view_services,  .view_services .services_text,  .view_services .services_image,  .view_moon,  .view_moon .moon .acacia,  .view_contacts,  .view_contacts .contact_hours,  .view_gallery {
+    position: absolute;
+  }
+   .view_canvas,  .view_sunset,  .view_food .food_image,  .view_facilities .facilities_image,  .view_services .services_image {
+    top: 0;
+  }
+   .view_canvas,  .view_sunset,  .view_moon {
+    left: 0;
+    width: 768px;
+  }
+   .view_canvas {
+    height: 8196px;
+    background-color: #000;
+  }
+   .view_canvas,  .view_nav,  .view_nav a,  .view_sunset,  .view_sunset .sun,  .view_sunset .sun .sky,  .view_sunset .sun .acacia,  .view_about,  .view_compname,  .view_compname .comp_name,  .view_compname .comp_motto,  .view_food,  .view_food .food_text,  .view_food .food_text .header,  .view_food .food_text .text,  .view_food .food_text .text div,  .view_facilities,  .view_facilities .facilities_text,  .view_facilities .facilities_text .header,  .view_facilities .facilities_text .text,  .view_facilities .facilities_text .text div,  .view_services,  .view_services .services_text,  .view_services .services_text .header,  .view_services .services_text .text,  .view_services .services_text .text div,  .view_moon,  .view_moon .moon,  .view_moon .moon .acacia,  .view_contacts,  .view_contacts .logo,  .view_contacts .text,  .view_contacts .contact_hours,  .view_contacts .contact_hours .logo,  .view_contacts .contact_hours .text,  .view_gallery {
+    box-sizing: border-box;
+  }
+   .view_nav {
+    top: 20px;
+    left: 24.832px;
+    width: 718.335px;
+    height: 34px;
+    padding-top: 4px;
+    border-radius: 5px;
+    background-color: rgb(0,0,0,0.5);
+  }
+   .view_nav a,  .view_about,  .view_compname .comp_motto,  .view_food .food_text .header,  .view_food .food_text .text,  .view_facilities .facilities_text .header,  .view_facilities .facilities_text .text,  .view_services .services_text .header,  .view_services .services_text .text,  .view_contacts .text {
+    font-family: kickerregular;
+  }
+   .view_nav a {
+    font-size: 26px;
+    display: inline-block;
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+    margin-left: 13px;
+  }
+   .view_nav a,  .view_compname .comp_name,  .view_food .food_text .header,  .view_facilities .facilities_text .header,  .view_services .services_text .header {
+    color: #e22c00;
+  }
+   .view_nav a.active,  .view_about,  .view_compname .comp_motto,  .view_food .food_text .text,  .view_facilities .facilities_text .text,  .view_services .services_text .text,  .view_contacts .text {
+    color: #ffffff;
+  }
+   .view_sunset {
+    height: 878.605px;
+  }
+   .view_sunset .sun,  .view_compname .comp_name,  .view_compname .comp_motto,  .view_moon .moon,  .view_contacts .logo,  .view_contacts .text {
+    position: relative;
+  }
+   .view_sunset .sun,  .view_sunset .sun .sky,  .view_moon .moon {
+    width: 100%;
+    height: 100%;
+  }
+   .view_sunset .sun {
+    background-image: radial-gradient(750px circle at 135px 785px, #fffee2, #fffd8d 60px, #fffc38 97px, #ff4800 97px, #ff4800 120px, rgb(255, 207, 0, 0));
+  }
+   .view_sunset .sun .sky {
+    opacity: 0.326;
+    background-image: linear-gradient(to top, #e22c00, #711600 20%, #380b00 45%, #000000 55%);
+  }
+   .view_sunset .sun .acacia {
+    left: 95.057px;
+    top: 760.758px;
+    width: 317.189px;
+    height: 124.468px;
+  }
+   .view_about {
+    left: 25.669px;
+    top: 928.085px;
+    width: 716.661px;
+  }
+   .view_about,  .view_compname .comp_motto {
+    font-size: 32px;
+  }
+   .view_compname {
+    left: 46.024px;
+    top: 238.500px;
+    width: 675.953px;
+  }
+   .view_compname,  .view_food .food_text,  .view_facilities .facilities_text,  .view_services .services_text,  .view_contacts {
+    text-align: center;
+  }
+   .view_compname .comp_name {
+    font-size: 72px;
+    font-family: halanaregular;
+  }
+   .view_compname .comp_name,  .view_compname .comp_motto {
+    text-shadow: -2px -2px #000;
+  }
+   .view_compname .comp_motto,  .view_contacts .text {
+    margin-top: 10px;
+  }
+   .view_food,  .view_facilities,  .view_services {
+    left: 26.371px;
+    width: 715.257px;
+  }
+   .view_food {
+    top: 1510.202px;
+    height: 1119.586px;
+  }
+   .view_food .food_text {
+    top: calc(2072.230px - 1510.202px);
+  }
+   .view_food .food_text .header,  .view_facilities .facilities_text .header,  .view_services .services_text .header {
+    font-size: 40px;
+  }
+   .view_food .food_text .text,  .view_facilities .facilities_text .text,  .view_services .services_text .text,  .view_contacts .text {
+    font-size: 28px;
+  }
+   .view_food .food_text .text,  .view_food .food_text .text div,  .view_facilities .facilities_text .text,  .view_facilities .facilities_text .text div,  .view_services .services_text .text,  .view_services .services_text .text div,  .view_contacts .contact_hours .text {
+    margin-top: 20px;
+  }
+   .view_food .food_image {
+    left: calc(90.858px - 26.371px);
+    width: 586.284px;
+    height: 415.860px;
+  }
+   .view_food .food_image,  .view_facilities .facilities_image,  .view_services .services_image {
+    filter: invert(100%) sepia(20%) saturate(0%) hue-rotate(13deg) brightness(104%) contrast(101%);
+  }
+   .view_facilities {
+    top: 2897.546px;
+    height: 1092.012px;
+  }
+   .view_facilities .facilities_text {
+    top: calc(3432px - 2897.546px);
+  }
+   .view_facilities .facilities_image {
+    left: calc(65.697px - 26.371px);
+    width: 636.606px;
+    height: 416.486px;
+  }
+   .view_services {
+    top: 4216.061px;
+    height: 1185.501px;
+  }
+   .view_services .services_text {
+    top: calc(4844.004px - 4216.061px);
+  }
+   .view_services .services_image {
+    left: calc(62.527px - 26.371px);
+    width: 642.946px;
+    height: 559.897px;
+  }
+   .view_moon {
+    top: 7087.959px;
+    height: 861.371px;
+  }
+   .view_moon .moon {
+    background-image: radial-gradient(600px circle at 109px calc(7683px - 7087.959px),#e2e2e2,  #ffffff 45px, #8d8d8d 50px, #717171 65px, rgb(255, 207, 0, 0));
+  }
+   .view_moon .moon .acacia {
+    left: 88.438px;
+    top: calc(7857.611px - 7087.959px);
+    width: 283.355px;
+    height: 91.719px;
+  }
+   .view_contacts {
+    left: 210.576px;
+    top: 7104.902px;
+  }
+   .view_contacts .logo {
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+    filter: invert(21%) sepia(40%) saturate(5664%) hue-rotate(2deg) brightness(103%) contrast(102%);
+  }
+   .view_contacts .contact_hours {
+    left: calc(44.506px - 210.576px);
+    top: calc(7984.385px - 7104.902px);
+    text-align: left;
+  }
+   .view_contacts .contact_hours .logo {
+    margin-top: 0;
+  }
+   .view_gallery {
+    left: 35.689px;
+    top: 5568.266px;
+    width: 696.623px;
+    height: 1186.529px;
+    overflow-y: scroll;
+  }
 }
 @media (max-width: 768px) and (orientation: landscape) {
+   html {
+    overflow-y: initial !important;
+  }
+   html,  .view_gallery {
+    scrollbar-width: none;
+  }
+   html::-webkit-scrollbar,  .view_gallery::-webkit-scrollbar {
+    display: none;
+  }
+   .view_canvas,  .view_nav,  .view_nav a,  .view_sunset,  .view_sunset .sun,  .view_sunset .sun .sky,  .view_sunset .sun .acacia,  .view_about,  .view_compname,  .view_compname .comp_name,  .view_compname .comp_motto,  .view_food,  .view_food .food_text,  .view_food .food_text .header,  .view_food .food_text .text,  .view_food .food_text .text div,  .view_food .food_image,  .view_facilities,  .view_facilities .facilities_text,  .view_facilities .facilities_text .header,  .view_facilities .facilities_text .text,  .view_facilities .facilities_text .text div,  .view_facilities .facilities_image,  .view_services,  .view_services .services_text,  .view_services .services_text .header,  .view_services .services_text .text,  .view_services .services_text .text div,  .view_services .services_image,  .view_moon,  .view_moon .moon,  .view_moon .moon .acacia,  .view_contacts,  .view_contacts .logo,  .view_contacts .text,  .view_gallery {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   .view_canvas,  .view_nav,  .view_sunset,  .view_sunset .sun .acacia,  .view_about,  .view_compname,  .view_food,  .view_food .food_image,  .view_facilities,  .view_facilities .facilities_text,  .view_facilities .facilities_image,  .view_services,  .view_services .services_image,  .view_moon,  .view_moon .moon .acacia,  .view_contacts,  .view_gallery {
+    position: absolute;
+  }
+   .view_canvas,  .view_sunset {
+    top: 0;
+  }
+   .view_canvas,  .view_sunset,  .view_moon {
+    left: 0;
+    width: 768px;
+  }
+   .view_canvas {
+    height: 2592px;
+    background-color: #000;
+  }
+   .view_nav {
+    top: 10px;
+    left: 232.379px;
+    width: 518.879px;
+    height: 22px;
+    padding-top: 2px;
+    border-radius: 2.5px;
+    background-color: rgb(0,0,0,0.5);
+  }
+   .view_nav a,  .view_sunset .sun,  .view_compname .comp_name,  .view_compname .comp_motto,  .view_food .food_text,  .view_moon .moon,  .view_contacts .logo,  .view_contacts .text {
+    position: relative;
+  }
+   .view_nav a,  .view_about,  .view_compname .comp_motto,  .view_food .food_text .header,  .view_food .food_text .text,  .view_facilities .facilities_text .header,  .view_facilities .facilities_text .text,  .view_services .services_text .header,  .view_services .services_text .text,  .view_contacts .text {
+    font-family: kickerregular;
+  }
+   .view_nav a,  .view_about,  .view_compname .comp_motto {
+    font-size: 18px;
+  }
+   .view_nav a,  .view_compname .comp_name,  .view_food .food_text .header,  .view_facilities .facilities_text .header,  .view_services .services_text .header {
+    color: #e22c00;
+  }
+   .view_nav a,  .view_food .food_text,  .view_food .food_image,  .view_facilities .facilities_text,  .view_facilities .facilities_image,  .view_services .services_text,  .view_services .services_image {
+    display: inline-block;
+  }
+   .view_nav a {
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+    margin-left: 12.5px;
+  }
+   .view_nav a.active,  .view_about,  .view_compname .comp_motto,  .view_food .food_text .text,  .view_facilities .facilities_text .text,  .view_services .services_text .text,  .view_contacts .text {
+    color: #ffffff;
+  }
+   .view_sunset {
+    height: 301.407px;
+  }
+   .view_sunset .sun,  .view_sunset .sun .sky,  .view_moon .moon {
+    width: 100%;
+    height: 100%;
+  }
+   .view_sunset .sun {
+    background-image: radial-gradient(450px circle at 80px 250px, #fffee2, #fffd8d 35px, #fffc38 53.5px, #ff4800 53.5px, #ff4800 65px, rgb(255, 207, 0, 0));
+  }
+   .view_sunset .sun .sky {
+    opacity: 0.326;
+    background-image: linear-gradient(to top, #e22c00, #711600 20%, #380b00 45%, #000000 55%);
+  }
+   .view_sunset .sun .acacia {
+    left: 60.643px;
+    top: 235.962px;
+  }
+   .view_sunset .sun .acacia,  .view_moon .moon .acacia {
+    width: 159.466px;
+    height: 66.522px;
+  }
+   .view_about {
+    left: 19.333px;
+    top: 319.602px;
+    width: 729.333px;
+  }
+   .view_compname {
+    left: 281.247px;
+    top: 90.454px;
+    width: 397.543px;
+    text-align: center;
+  }
+   .view_compname .comp_name {
+    font-size: 40px;
+    font-family: halanaregular;
+  }
+   .view_compname .comp_name,  .view_compname .comp_motto {
+    text-shadow: 2px -2px #000;
+  }
+   .view_compname .comp_motto,  .view_contacts .text {
+    margin-top: 5px;
+  }
+   .view_food {
+    left: 50.623px;
+    top: 491.434px;
+    width: 667.624px;
+  }
+   .view_food,  .view_facilities,  .view_services {
+    height: 313.465px;
+  }
+   .view_food .food_text,  .view_facilities .facilities_text,  .view_services .services_text {
+    width: 401.612px;
+  }
+   .view_food .food_text,  .view_services .services_text {
+    margin-right: 20px;
+  }
+   .view_food .food_text .header,  .view_facilities .facilities_text .header,  .view_services .services_text .header {
+    font-size: 22px;
+  }
+   .view_food .food_text .text,  .view_facilities .facilities_text .text,  .view_services .services_text .text {
+    font-size: 16px;
+  }
+   .view_food .food_text .text,  .view_food .food_text .text div,  .view_facilities .facilities_text .text,  .view_facilities .facilities_text .text div,  .view_services .services_text .text,  .view_services .services_text .text div {
+    margin-top: 10px;
+  }
+   .view_food .food_image {
+    width: 223.129px;
+    height: 169.438px;
+    top: 72px;
+  }
+   .view_food .food_image,  .view_facilities .facilities_image,  .view_services .services_image {
+    filter: invert(100%) sepia(20%) saturate(0%) hue-rotate(13deg) brightness(104%) contrast(101%);
+  }
+   .view_facilities {
+    left: 34.666px;
+    top: 923.211px;
+    width: 697.842px;
+  }
+   .view_facilities .facilities_text {
+    left: 253.911px;
+    margin-left: 20px;
+  }
+   .view_facilities .facilities_text .header,  .view_facilities .facilities_text .text {
+    text-align: right;
+  }
+   .view_facilities .facilities_image {
+    top: 68px;
+    width: 253.911px;
+    height: 177.781px;
+  }
+   .view_services {
+    left: 25.306px;
+    top: 1354.989px;
+    width: 718.147px;
+  }
+   .view_services .services_image {
+    top: 23px;
+    width: 291.034px;
+    height: 267.899px;
+  }
+   .view_moon {
+    top: 2224.395px;
+    height: 301.986px;
+  }
+   .view_moon .moon {
+    background-image: radial-gradient(350px circle at 60px 155.5px,#e2e2e2,  #ffffff 27.5px, #8d8d8d 30px, #717171 37.5px, rgb(255, 207, 0, 0));
+  }
+   .view_moon .moon .acacia {
+    left: 61.327px;
+    top: 236.483px;
+  }
+   .view_contacts {
+    left: 477.769px;
+    top: 2238.032px;
+  }
+   .view_contacts .logo {
+    width: 16.8px;
+    height: 16.8px;
+    margin-top: 12.5px;
+    filter: invert(21%) sepia(40%) saturate(5664%) hue-rotate(2deg) brightness(103%) contrast(102%);
+  }
+   .view_contacts .text {
+    font-size: 14px;
+  }
+   .view_gallery {
+    left: 19.493px;
+    top: 1776.666px;
+    width: 729.014px;
+    height: 365.150px;
+    overflow-y: scroll;
+  }
 }
 @media (max-width: 768px) and (orientation: portrait) {
+   html {
+    overflow-y: initial !important;
+  }
+   html,  .view_gallery {
+    scrollbar-width: none;
+  }
+   html::-webkit-scrollbar,  .view_gallery::-webkit-scrollbar {
+    display: none;
+  }
+   .view_canvas,  .view_nav,  .view_nav a,  .view_sunset,  .view_sunset .sun,  .view_sunset .sun .sky,  .view_sunset .sun .acacia,  .view_about,  .view_compname,  .view_compname .comp_name,  .view_compname .comp_motto,  .view_food,  .view_food .food_text,  .view_food .food_text .header,  .view_food .food_text .text,  .view_food .food_text .text div,  .view_food .food_image,  .view_facilities,  .view_facilities .facilities_text,  .view_facilities .facilities_text .header,  .view_facilities .facilities_text .text,  .view_facilities .facilities_text .text div,  .view_facilities .facilities_image,  .view_services,  .view_services .services_text,  .view_services .services_text .header,  .view_services .services_text .text,  .view_services .services_text .text div,  .view_services .services_image,  .view_moon,  .view_moon .moon,  .view_moon .moon .acacia,  .view_contacts,  .view_contacts .logo,  .view_contacts .text,  .view_contacts .contact_hours,  .view_contacts .contact_hours .logo,  .view_contacts .contact_hours .text,  .view_gallery {
+    margin: 0;
+    padding: 0;
+  }
+   .view_canvas,  .view_nav,  .view_sunset,  .view_sunset .sun .acacia,  .view_about,  .view_compname,  .view_food,  .view_food .food_text,  .view_food .food_image,  .view_facilities,  .view_facilities .facilities_text,  .view_facilities .facilities_image,  .view_services,  .view_services .services_text,  .view_services .services_image,  .view_moon,  .view_moon .moon .acacia,  .view_contacts,  .view_contacts .contact_hours,  .view_gallery {
+    position: absolute;
+  }
+   .view_canvas,  .view_sunset,  .view_food .food_image,  .view_facilities .facilities_image,  .view_services .services_image {
+    top: 0;
+  }
+   .view_canvas,  .view_sunset,  .view_moon {
+    left: 0;
+    width: 432px;
+  }
+   .view_canvas {
+    height: 4608px;
+    background-color: #000;
+  }
+   .view_canvas,  .view_nav,  .view_nav a,  .view_sunset,  .view_sunset .sun,  .view_sunset .sun .sky,  .view_sunset .sun .acacia,  .view_about,  .view_compname,  .view_compname .comp_name,  .view_compname .comp_motto,  .view_food,  .view_food .food_text,  .view_food .food_text .header,  .view_food .food_text .text,  .view_food .food_text .text div,  .view_facilities,  .view_facilities .facilities_text,  .view_facilities .facilities_text .header,  .view_facilities .facilities_text .text,  .view_facilities .facilities_text .text div,  .view_services,  .view_services .services_text,  .view_services .services_text .header,  .view_services .services_text .text,  .view_services .services_text .text div,  .view_moon,  .view_moon .moon,  .view_moon .moon .acacia,  .view_contacts,  .view_contacts .logo,  .view_contacts .text,  .view_contacts .contact_hours,  .view_contacts .contact_hours .logo,  .view_contacts .contact_hours .text,  .view_gallery {
+    box-sizing: border-box;
+  }
+   .view_nav {
+    top: 10px;
+    left: 21.702px;
+    width: 403.801px;
+    height: 19px;
+    padding-top: 2px;
+    border-radius: 2.5px;
+    background-color: rgb(0,0,0,0.5);
+  }
+   .view_nav a,  .view_about,  .view_compname .comp_motto,  .view_food .food_text .header,  .view_food .food_text .text,  .view_facilities .facilities_text .header,  .view_facilities .facilities_text .text,  .view_services .services_text .header,  .view_services .services_text .text,  .view_contacts .text {
+    font-family: kickerregular;
+  }
+   .view_nav a {
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+    margin-left: 4px;
+  }
+   .view_nav a,  .view_compname .comp_name,  .view_food .food_text .header,  .view_facilities .facilities_text .header,  .view_services .services_text .header {
+    color: #e22c00;
+  }
+   .view_nav a.active,  .view_about,  .view_compname .comp_motto,  .view_food .food_text .text,  .view_facilities .facilities_text .text,  .view_services .services_text .text,  .view_contacts .text {
+    color: #ffffff;
+  }
+   .view_sunset {
+    height: 493.911px;
+  }
+   .view_sunset .sun,  .view_compname .comp_name,  .view_compname .comp_motto,  .view_moon .moon,  .view_contacts .logo,  .view_contacts .text {
+    position: relative;
+  }
+   .view_sunset .sun,  .view_sunset .sun .sky,  .view_moon .moon {
+    width: 100%;
+    height: 100%;
+  }
+   .view_sunset .sun {
+    background-image: radial-gradient(400px circle at 90px 450px, #fffee2, #fffd8d 30px, #fffc38 46.5px, #ff4800 46.5px, #ff4800 60px, rgb(255, 207, 0, 0));
+  }
+   .view_sunset .sun .sky {
+    opacity: 0.326;
+    background-image: linear-gradient(to top, #e22c00, #711600 20%, #380b00 45%, #000000 55%);
+  }
+   .view_sunset .sun .acacia {
+    left: 53.209px;
+    top: 427.448px;
+    width: 178.753px;
+    height: 70.402px;
+  }
+   .view_about {
+    left: 14.430px;
+    top: 521.726px;
+    width: 402.860px;
+  }
+   .view_about,  .view_compname .comp_motto {
+    font-size: 18px;
+  }
+   .view_compname {
+    left: 25.872px;
+    top: 134.074px;
+    width: 376.976px;
+  }
+   .view_compname,  .view_food .food_text,  .view_facilities .facilities_text,  .view_services .services_text,  .view_contacts {
+    text-align: center;
+  }
+   .view_compname .comp_name {
+    font-size: 40px;
+    font-family: halanaregular;
+  }
+   .view_compname .comp_name,  .view_compname .comp_motto {
+    text-shadow: -1px -1px #000;
+  }
+   .view_compname .comp_motto,  .view_contacts .text,  .view_contacts .contact_hours .text {
+    margin-top: 5px;
+  }
+   .view_food,  .view_facilities,  .view_services {
+    left: 14.824px;
+  }
+   .view_food {
+    top: 848.108px;
+    width: 402.070px;
+    height: 630.237px;
+  }
+   .view_food .food_text {
+    top: calc(1164.912px - 848.108px);
+  }
+   .view_food .food_text .header,  .view_facilities .facilities_text .header,  .view_services .services_text .header {
+    font-size: 22px;
+  }
+   .view_food .food_text .text,  .view_facilities .facilities_text .text,  .view_services .services_text .text,  .view_contacts .text {
+    font-size: 16px;
+  }
+   .view_food .food_text .text,  .view_food .food_text .text div,  .view_facilities .facilities_text .text,  .view_facilities .facilities_text .text div,  .view_services .services_text .text,  .view_services .services_text .text div {
+    margin-top: 10px;
+  }
+   .view_food .food_image {
+    left: calc(50.180px - 14.824px);
+    width: 331.362px;
+    height: 235.489px;
+  }
+   .view_food .food_image,  .view_facilities .facilities_image,  .view_services .services_image {
+    filter: invert(100%) sepia(20%) saturate(0%) hue-rotate(13deg) brightness(104%) contrast(101%);
+  }
+   .view_facilities {
+    top: 1627.929px;
+    height: 614.815px;
+  }
+   .view_facilities,  .view_services {
+    width: 402.07px;
+  }
+   .view_facilities .facilities_text {
+    top: calc(1929.311px - 1627.929px);
+  }
+   .view_facilities .facilities_image {
+    left: calc(36.081px - 14.824px);
+    width: 359.028px;
+    height: 236.031px;
+  }
+   .view_services {
+    top: 2369.117px;
+    height: 667.390px;
+  }
+   .view_services .services_text {
+    top: calc(2723.074px - 2369.117px);
+  }
+   .view_services .services_image {
+    left: calc(34.364px - 14.824px);
+    width: 362.986px;
+    height: 316.704x;
+  }
+   .view_moon {
+    top: 3984.521px;
+    height: 484.420px;
+  }
+   .view_moon .moon {
+    background-image: radial-gradient(300px circle at 62.55px calc(4318.11px - 3984.521px),#e2e2e2,  #ffffff 22.5px, #8d8d8d 25px, #717171 32.5px, rgb(255, 207, 0, 0));
+  }
+   .view_moon .moon .acacia {
+    left: 49.465px;
+    top: calc(4416.990px - 3984.521px);
+    width: 159.780px;
+    height: 51.952px;
+  }
+   .view_contacts {
+    left: 118.372px;
+    top: 3994.046px;
+  }
+   .view_contacts .logo {
+    width: 16.8px;
+    height: 16.8px;
+    margin-top: 12.5px;
+    filter: invert(21%) sepia(40%) saturate(5664%) hue-rotate(2deg) brightness(103%) contrast(102%);
+  }
+   .view_contacts .contact_hours {
+    left: calc(25.018px - 118.372px);
+    top: calc(4488.451px - 3994.046px);
+    text-align: left;
+  }
+   .view_contacts .contact_hours .logo {
+    margin-top: 0;
+  }
+   .view_gallery {
+    left: 19.953px;
+    top: 3129.781px;
+    width: 391.813px;
+    height: 667.891px;
+    overflow-y: scroll;
+  }
 }

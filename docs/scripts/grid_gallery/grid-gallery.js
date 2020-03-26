@@ -1,4 +1,4 @@
- id="square"const root = document.querySelector("body, html");
+const root = document.querySelector("body, html");
 const container = document.querySelector('.gg-container');
 const images = document.querySelectorAll(".gg-box > img");
 const l = images.length;
